@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20846" started-at="2016-11-29T09:49:31Z" finished-at="2016-11-29T09:49:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20846" started-at="2016-11-29T09:49:31Z" finished-at="2016-11-29T09:49:52Z">
+      <class name="TestNotepad">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestNotepad@59f99ea]" name="setUpClass" is-config="true" duration-ms="4105" started-at="2016-11-29T15:19:31Z" finished-at="2016-11-29T15:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="Combination()[pri:0, instance:TestNotepad@59f99ea]" name="Combination" duration-ms="5621" started-at="2016-11-29T15:19:36Z" finished-at="2016-11-29T15:19:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Display is  711 ] but found [Display is  8 ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Display is  711 ] but found [Display is  8 ]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at TestNotepad.Combination(TestNotepad.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Combination -->
+        <test-method status="PASS" signature="Division()[pri:0, instance:TestNotepad@59f99ea]" name="Division" duration-ms="4665" started-at="2016-11-29T15:19:41Z" finished-at="2016-11-29T15:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Division -->
+        <test-method status="PASS" signature="Subtraction()[pri:0, instance:TestNotepad@59f99ea]" name="Subtraction" duration-ms="3094" started-at="2016-11-29T15:19:46Z" finished-at="2016-11-29T15:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subtraction -->
+        <test-method status="PASS" signature="testAddition()[pri:0, instance:TestNotepad@59f99ea]" name="testAddition" duration-ms="2985" started-at="2016-11-29T15:19:49Z" finished-at="2016-11-29T15:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestNotepad@59f99ea]" name="tearDownClass" is-config="true" duration-ms="329" started-at="2016-11-29T15:19:52Z" finished-at="2016-11-29T15:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestNotepad -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
